@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 	
 	/**
-	 * home
+	 * home222
 	 * */
 	@RequestMapping("/")
 	public String home() {
