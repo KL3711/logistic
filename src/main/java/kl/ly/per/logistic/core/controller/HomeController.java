@@ -5,7 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {
-	   
+	
+	/**
+	 * homepage
+	 * */
 	@RequestMapping("/")
 	public String home() {
 		return "welcome home";
